@@ -1,0 +1,6 @@
+server/
+.manus-logs/
+node_modules/
+.git/
+.env.local
+.DS_Store

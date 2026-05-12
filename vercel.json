@@ -1,0 +1,15 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "devCommand": "vite --host",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
